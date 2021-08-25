@@ -1,0 +1,142 @@
+
+
+body{
+    background-color: black;
+   font-size: 22px;
+   background-image: url(images/COVER3.png) ;
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+
+  .nav-links{
+    
+    justify-content:space-around;
+    color: white;
+    flex: 1;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    display: block;
+  }
+     
+    
+    li:hover{
+      padding-top: 1.4rem;
+       padding: 0.6rem;
+    }
+    
+    li a{
+        padding: 1rem;
+        
+    }
+    
+
+.back{
+      height: 120vh;
+      width: 100%;
+      background-image: url(https://wallpapercave.com/wp/wp2365274.jpg);      
+      background-size: 110%;
+      background-repeat: no-repeat;
+      background-position: center;
+      transition: 5s;
+      
+     animation-name: animate;
+     animation-direction: alternate-reverse;
+     animation-duration: 20s;
+     animation-fill-mode: forwards;
+     animation-play-state: running;
+     animation-timing-function: ease-in-out;
+
+  }  
+
+@keyframes animate{
+    0%{
+        background-image: url(https://www.wallpapertip.com/wmimgs/8-85946_travis-fimmel-as-ragnar-lothbrok-black-theme-walpapers.jpg);
+    }20%{
+        background-image: url(https://www.wallpapertip.com/wmimgs/34-340691_vikings-action-drama-history-fantasy-adventure-series-vikings.jpg);
+        
+    }40%{
+        background-image: url(https://wallpaperaccess.com/full/782453.jpg);
+    }
+
+}
+
+
+  .nav-links,.logocontainer{
+    display: flex;
+    text-decoration: none;
+    font-family: Courier, monospace	;
+    }
+
+.nav-link{
+    text-decoration: none;
+    }
+
+
+
+.cover{
+    width: 100%;
+    animation: drop 2s ease-in;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+@keyframes drop {
+    0% {
+        opacity: 0.3;
+        transform: translateY(-170px);
+    }
+    100%{
+        opacity: 0.5;
+        transform: translateY(-20px);
+    }
+}
+
+
+
+@keyframes drop {
+    0% {
+        opacity: 0.3;
+        transform: translateY(-170px);
+    }
+    100%{
+        opacity: 0.5;
+        transform: translateY(-3px);
+    }
+}
+
+
+#title{
+    font-size: 70px;
+    font-family: Perpetua;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+
+
+}
+
+
+.caption2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: Century Gothic	
+    ;
+}
+
+
+.title1{
+    
+    color: white;
+    font-size: 70px;
+    font-family: Impact;
+}
+
+
